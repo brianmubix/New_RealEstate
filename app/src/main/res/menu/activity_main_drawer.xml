@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboad" />
+        <item
+            android:id="@+id/nav_myrooms"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="My Rooms" />
+        <item
+            android:id="@+id/nav_vacant"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Vacant Rooms" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="My Location" />
+
+        <item
+        android:id="@+id/nav_faqs"
+        android:icon="@drawable/ic_faqs_outline_black_24dp"
+        android:title="FAQs" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About Us" />
+    </group>
+
+    <item android:title="Settings">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_edit_profile"
+                android:icon="@drawable/ic_mode_edit_black_24dp"
+                android:title="Edit Profile" />
+
+            <item
+                android:id="@+id/nav_change_password"
+                android:icon="@drawable/ic_lock_black_24dp"
+                android:title="Change Password" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_phone_black_24dp"
+                android:title="Contact Us" />
+
+        </menu>
+    </item>
+
+</menu>
